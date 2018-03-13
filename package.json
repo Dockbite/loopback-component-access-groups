@@ -1,7 +1,7 @@
 {
   "name": "loopback-component-access-groups",
   "description": "Access controls for Loopback.",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "author": {
     "name": "Tom Kirkpatrick @mrfelton"
   },
@@ -35,7 +35,9 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "debug": "^2.6.8",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "loopback-datasource-juggler": "^3.15.4"
+    "loopback-component-explorer": "^4.2.0"
   },
   "peerDependencies": {
     "loopback": "^2.25.0",
